@@ -1,0 +1,17 @@
+.word-relay {
+    display: flex;
+}
+.game__containers {
+    flex: 1;
+}
+.word__list {
+    width: 30vw;
+}
+.word {
+    display: flex;
+    align-items: center;
+}
+.form-box {
+    display: flex;
+    align-items: center;
+}

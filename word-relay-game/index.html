@@ -6,13 +6,21 @@
 </head>
 <link rel="stylesheet" type="text/css" href="/word-relay-game/styles.css" />
 <body>
-    <div>
-        <span id="order">1</span>
-        첫번째 참가자
-    </div>
-    <div>제시어 : <span id="word"></span></div>
-    <input type="text">
-    <button type="button">입력</button>
+    <section class="word-relay">
+        <article class="game__containers">
+            <div>
+                <span id="order">1</span>번째 참가자
+            </div>
+            <div class="word__text">제시어 : <span id="word"></span></div>
+            <div class="form-box">
+                <input type="text" maxlength="3">
+                <button type="button">입력</button>
+            </div>
+        </article>
+        <article class="word__list">
+            입력리스트
+        </article>
+    </section>
 </body>
 <script src="/word-relay-game/index.js"></script>
 </html>
