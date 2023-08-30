@@ -71,7 +71,9 @@
 .roulette .outline {
     width: 100%;
 }
-
+.roulette.loop-0 {
+    animation: rotation0 5s ease-in-out forwards;
+}
 .roulette.loop-1 {
     animation: rotation1 5s ease-in-out forwards;
 }
@@ -87,15 +89,6 @@
 .roulette.loop-5 {
     animation: rotation5 5s ease-in-out forwards;
 }
-.roulette.loop-6 {
-    animation: rotation6 5s ease-in-out forwards;
-}
-.roulette.loop-7 {
-    animation: rotation7 5s ease-in-out forwards;
-}
-.roulette.loop-8 {
-    animation: rotation8 5s ease-in-out forwards;
-}
 
 .trigger {
     position: absolute;
@@ -104,13 +97,21 @@
 }
 
 
+@keyframes rotation0 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(7200deg);
+    }
+}
 
 @keyframes rotation1 {
     from {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(7230deg);
+        transform: rotate(7260deg);
     }
 }
 @keyframes rotation2 {
@@ -118,7 +119,7 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(7185deg);
+        transform: rotate(7320deg);
     }
 }
 @keyframes rotation3 {
@@ -134,7 +135,7 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(7095deg);
+        transform: rotate(7320deg);
     }
 }
 @keyframes rotation5 {
@@ -142,30 +143,6 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(7050deg);
-    }
-}
-@keyframes rotation6 {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(7005deg);
-    }
-}
-@keyframes rotation7 {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(6960deg);
-    }
-}
-@keyframes rotation8 {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(6915deg);
+        transform: rotate(7380deg);
     }
 }
