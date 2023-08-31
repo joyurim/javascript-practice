@@ -13,6 +13,7 @@ const randomRoulette = () => {
 
     setTimeout(() => {
         alert(prizes[targetIndex]);
+        roulette.classList.remove(`loop-${targetIndex}`);
     },5000)
 }
 
@@ -28,5 +29,6 @@ const doSpin = (price) => {
     });
     setTimeout(() => {
         alert(prizes[targetIndex]);
+        roulette.classList.remove(`loop-${targetIndex}`);
     },5000)
 }
