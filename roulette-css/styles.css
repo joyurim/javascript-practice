@@ -71,22 +71,22 @@
 .roulette .outline {
     width: 100%;
 }
-.roulette.loop-0 {
+.loop-0 {
     animation: rotation0 5s ease-in-out forwards;
 }
-.roulette.loop-1 {
+.loop-1 {
     animation: rotation1 5s ease-in-out forwards;
 }
-.roulette.loop-2 {
+.loop-2 {
     animation: rotation2 5s ease-in-out forwards;
 }
-.roulette.loop-3 {
+.loop-3 {
     animation: rotation3 5s ease-in-out forwards;
 }
-.roulette.loop-4 {
+.loop-4 {
     animation: rotation4 5s ease-in-out forwards;
 }
-.roulette.loop-5 {
+.loop-5 {
     animation: rotation5 5s ease-in-out forwards;
 }
 
@@ -119,7 +119,7 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(7320deg);
+        transform: rotate(7440deg);
     }
 }
 @keyframes rotation3 {
